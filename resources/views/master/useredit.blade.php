@@ -28,9 +28,12 @@
                             <input type="email" class="form-control" name="txtemail" placeholder="E-Mail"value = {{ $data -> email }}>
                         </div>
                         <div class="form-group">
-                            <label>Jabatan</label>
-                            <input type="text" class="form-control" name="txtjabatan" placeholder="jabatan"value = {{ $data -> nohp }}>
+                            <label>No. Handphone</label>
+                            <input type="text" class="form-control" name="txtnohp" placeholder="No. Handphone"value = {{ $data -> nohp }}>
                         </div>
+                        <div class="form-group">
+                            <label>jabatan</label>
+                            <input type="text" class="form-control" name="txtjbtn" placeholder="jabatan"value = {{ $data -> jabatan }}>
                     </div>
                     <div class="card-footer">
                         <button type="submit" class="btn btn-primary">Update</button>

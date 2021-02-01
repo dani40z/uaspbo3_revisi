@@ -28,9 +28,12 @@
                             <input type="email" class="form-control" name="txtemail" placeholder="E-Mail">
                         </div>
                         <div class="form-group">
-                            <label>Jabatan</label>
-                            <input type="text" class="form-control" name="txtjabatan" placeholder="jabatan">
+                            <label>No. Handphone</label>
+                            <input type="text" class="form-control" name="txtnohp" placeholder="No. Handphone">
                         </div>
+                        <div class="form-group">
+                            <label>jabatan</label>
+                            <input type="text" class="form-control" name="txtjbtn" placeholder="jabatan">
                     </div>
                     <div class="card-footer">
                         <button type="submit" class="btn btn-primary">Simpan</button>

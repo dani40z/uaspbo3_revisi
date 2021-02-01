@@ -34,6 +34,7 @@ class UserControler extends Controller
          $user->tgllhr = $request->datetgllhr;
         $user->email = $request->txtemail;
         $user->nohp = $request->txtnohp;
+        $user->jabatan = $request->txtjbtn;
         $user->save();
         $dataanggota = anggota::all();
         return view('master.user', compact('dataanggota'));
@@ -55,6 +56,7 @@ class UserControler extends Controller
             'tgllhr' => $request->datetgllhr,
             'email' => $request->txtemail,
             'nohp' => $request->txtnohp,
+            'jabatan' => $request->txtjbtn,
         ]);
         return redirect ('user');
     }
