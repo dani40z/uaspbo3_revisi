@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compitable"content="IE=edge">
-    <title>Dani | Login</title>
+    <title>dani | Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
 

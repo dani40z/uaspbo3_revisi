@@ -29,7 +29,7 @@
                         </div>
                         <div class="form-group">
                             <label>Jabatan</label>
-                            <input type="text" class="form-control" name="txtJabatan" placeholder="Jabatan">
+                            <input type="text" class="form-control" name="txtjabatan" placeholder="jabatan">
                         </div>
                     </div>
                     <div class="card-footer">
